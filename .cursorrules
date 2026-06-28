@@ -1,0 +1,9 @@
+# Heimdallr — standing instructions
+
+- This is a machine-learning project to forecast next-day wildfire spread using the Next Day Wildfire Spread dataset and PyTorch.
+- The developer is new to many of these tools. Always explain your choices in plain language and add clear comments.
+- Use Python 3.11+, managed with uv. Use type hints everywhere. Format with ruff and black.
+- Prefer small, readable, well-tested functions over clever one-liners.
+- Use a clean package layout under src/. Never put logic in notebooks except for quick exploration.
+- When you add a dependency, tell me the exact uv command to run.
+- When you write a new module, also write a matching pytest test for it.
